@@ -1,0 +1,262 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* 
+  ===========================
+  Variables
+  ===========================
+*/
+:root {
+  --primary-red: hsl(0, 78%, 62%);
+  --primary-cyan: hsl(180, 62%, 55%);
+  --primary-orange: hsl(34, 97%, 64%);
+  --primary-blue: hsl(212, 86%, 64%);
+  --neutral-very-dark-blue: hsl(234, 12%, 34%);
+  --neutral-grayish-blue: hsl(229, 6%, 66%);
+  --neutral-very-light-gray: hsl(0, 0%, 98%);
+}
+
+/* 
+   ===========================
+   Custom Styles
+   ===========================
+ */
+body {
+  background-color: var(--neutral-very-light-gray);
+  font-family: "Poppins", sans-serif;
+  font-size: 15px;
+  margin: 0 auto;
+  width: 375px;
+}
+
+section {
+  background: #ffffff;
+  box-shadow: 2px 4px 5px var(--neutral-grayish-blue);
+  height: 221px;
+  margin: 0 auto;
+  width: 310px;
+}
+.supervisor {
+  border-top: 4px solid var(--primary-cyan);
+}
+.team {
+  border-top: 4px solid var(--primary-red);
+}
+.karma {
+  border-top: 4px solid var(--primary-orange);
+}
+.calculator {
+  border-top: 4px solid var(--primary-blue);
+}
+
+/* 
+   ==========================
+   Typography
+   ==========================
+*/
+h2 {
+  font-weight: 400;
+}
+.bold,
+h3 {
+  font-weight: 600;
+}
+
+h2,
+h3 {
+  color: var(--neutral-very-dark-blue);
+}
+p {
+  color: var(--neutral-grayish-blue);
+  font-size: 0.8rem;
+  font-weight: 200;
+}
+
+section p {
+  line-height: 1.3rem;
+  margin-top: 0.9rem;
+}
+/* 
+   ==========================
+   Grid
+   ==========================
+*/
+header {
+  box-sizing: border-box;
+  padding: 95px 40px 81px 40px;
+  width: 100%;
+}
+section {
+  border-radius: 5px;
+  box-sizing: border-box;
+  margin-bottom: 26px;
+  padding: 34px 27px 28px 27px;
+  position: relative;
+}
+
+.wrapper img {
+  position: absolute;
+  right: 27px;
+  bottom: 28px;
+}
+/* 
+   ==========================
+   Header
+   ==========================
+*/
+
+header h2 {
+  font-size: 1.4rem;
+  line-height: 2rem;
+  padding-left: 10px;
+}
+header p {
+  font-size: 0.9rem;
+  line-height: 1.4rem;
+  padding-top: 20px;
+  text-align: center;
+}
+
+/* 
+   ==========================
+   Footer
+   ==========================
+*/
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+footer {
+  margin: 30px 0;
+}
