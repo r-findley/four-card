@@ -2,6 +2,14 @@
 
 ![Design preview for the Four card feature section coding challenge](./design/desktop-preview.jpg)
 
+## My README for this project
+
+- [x] Update README to reflect my personal work on this project
+- [] Create HTML file that reflects appropriate tags, etc. to build my project
+- [] Write a CSS file using the appropriate classes, ids, etc. to result in a responsive design
+- [] Deploy the project via Vercel
+- [] Share to the Slack/Frontend Mentor community
+
 ## Welcome! 👋
 
 Thanks for checking out this front-end coding challenge.
@@ -24,7 +32,7 @@ Want some support on the challenge? [Join our Slack community](https://www.front
 
 ## Where to find everything
 
-Your task is to build out the project to the designs inside the `/design` folder. You will find both a mobile and a desktop version of the design to work to. 
+Your task is to build out the project to the designs inside the `/design` folder. You will find both a mobile and a desktop version of the design to work to.
 
 The designs are in JPG static format. This will mean that you'll need to use your best judgment for styles such as `font-size`, `padding` and `margin`. This should help train your eye to perceive differences in spacings and sizes.
 
